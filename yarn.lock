@@ -1661,6 +1661,11 @@ copy-descriptor@^0.1.0:
   resolved "https://registry.yarnpkg.com/copy-descriptor/-/copy-descriptor-0.1.1.tgz#676f6eb3c39997c2ee1ac3a924fd6124748f578d"
   integrity sha1-Z29us8OZl8LuGsOpJP1hJHSPV40=
 
+cordova-sqlite-storage-dependencies@2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/cordova-sqlite-storage-dependencies/-/cordova-sqlite-storage-dependencies-2.0.0.tgz#a24e24d45b3b31e90217bc421db055497740265f"
+  integrity sha512-aYD5Cn1TJwgPmpZhQUYq4gOv5t+imzIxGo4SVa/fwEB/pLhiahi+2xK5gLd79YHrz6WdzFBr/126UPXhlSqRWA==
+
 core-js@^1.0.0:
   version "1.2.7"
   resolved "https://registry.yarnpkg.com/core-js/-/core-js-1.2.7.tgz#652294c14651db28fa93bd2d5ff2983a4f08c636"
@@ -4894,6 +4899,12 @@ react-is@^16.8.1, react-is@^16.8.3, react-is@^16.8.4:
   version "16.8.4"
   resolved "https://registry.yarnpkg.com/react-is/-/react-is-16.8.4.tgz#90f336a68c3a29a096a3d648ab80e87ec61482a2"
   integrity sha512-PVadd+WaUDOAciICm/J1waJaSvgq+4rHE/K70j0PFqKhkTBsPv/82UGQJNXAngz1fOQLLxI6z1sEDmJDQhCTAA==
+
+"react-native-sqlite-plugin-legacy-support@https://github.com/brodybits/react-native-sqlite-plugin-legacy-support":
+  version "0.0.1-dev"
+  resolved "https://github.com/brodybits/react-native-sqlite-plugin-legacy-support#e6d9170e8d35ee7c0ac32976e6e5616ce261f223"
+  dependencies:
+    cordova-sqlite-storage-dependencies "2.0.0"
 
 react-native@0.59.1:
   version "0.59.1"
