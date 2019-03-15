@@ -16,7 +16,7 @@ It is HIGHLY RECOMMENDED to use Yarn. Use without yarn is not tested and not sup
 
 Step 1: clone from GitHub using `git clone` or GUI client
 
-Step 2: within the clone, run the following command from the shell:
+Step 2: within the local `react-native-sqlite-plugin-legacy-demo` project directory, run the following command from the shell:
 
 ```sh
 yarn
@@ -26,14 +26,16 @@ This is to use the Yarn tool to install all dependencies that are specified in `
 
 Step 3: build and run
 
+follow these steps within the local `react-native-sqlite-plugin-legacy-demo` project directory:
+
 ```
   Run instructions for iOS:
-    • cd ReactNativeSQLiteLegacyDemo && react-native run-ios
+    • react-native run-ios
     - or -
-    • Open ReactNativeSQLiteLegacyDemo/ios/ReactNativeSQLiteLegacyDemo.xcodeproj in Xcode
+    • open ios/ReactNativeSQLiteLegacyDemo.xcodeproj in Xcode
     • Hit the Run button
 
   Run instructions for Android:
     • Have an Android emulator running (quickest way to get started), or a device connected.
-    • cd ReactNativeSQLiteLegacyDemo && react-native run-android
+    • react-native run-android
 ```
